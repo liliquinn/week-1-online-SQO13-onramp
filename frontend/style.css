@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+    font-size: 1.1rem;
+    font-family: inter;
+}
+p, span, .duration, .per-month{
+    color: #535050;
+}
+.fa {
+    font-size: 20px!important;
+}
+.fa-twitter {
+    color: #1d9bf0;
+}
+.fa-heart-o {
+    color: #f66d65;
+}
+.testi {
+    padding: 50px 200px;
+    background: #d7f5f5;
+}
+.container {
+    padding: 50px 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+.heading h2 {
+    font-size: 2rem;
+}
+.box {
+    width: 100%;
+    padding: 20px 20px;
+    background: #fff;
+    border-radius: 5px;
+}
+.profile-img {
+    border-radius: 50%;
+    min-width: 50px;
+}
+.top {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 20px 0;
+}
+.profile-details {
+    display: flex;
+}
+.profile-info {
+	padding-left: 10px;
+    display: grid;
+    align-content: center;
+    align-items: center;
+    justify-items: stretch;
+    justify-content: space-evenly;
+}
+.profile-info h2 {
+    display: block;
+    font-size: 1.2em;
+    margin: unset;
+    font-weight: bold;
+}
+.profile-info span {
+    font-size: 1.1rem;
+}
+.testi-info {
+    padding: 0 0 20px 0;
+}
+.testi-info p {
+    font-size: 1rem;
+    line-height: 25px;
+}
+.bottom {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom img {
+    width: 20px;
+}
+.text-right{
+	text-align: right;
+}
+.likes {
+    display: flex;
+    align-items: center;
+}
+.pricing {
+    padding: 100px 200px;
+}
+.price-plan {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.plan-heading {
+    text-align: center;
+}
+.plan-heading h2 {
+    font-size: 2rem;
+    padding: 0 0 10px 0;
+}
+.price-box {
+    width: 40%;
+    position: relative;
+    padding: 20px 50px 50px;
+    border: 2px solid #fea900;
+    border-radius: 10px;
+    background: #fbf8f3;
+}
+.amount {
+    font-size: 2.5rem;
+    color: #000;
+}
+.duration{
+	margin-block-end: unset;
+}
+.per-month{
+	margin-block-start: unset;
+}
+.price-box-top {
+    padding: 0 0 20px 0;
+}
+.price-info {
+    padding: 20px 0 10px 0;
+}
+.price-info p {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.fa-check-circle {
+    font-size: 35px!important;
+    padding-right: 10px;
+    color: #43a047;
+}
+.price-box-bottom {
+    padding: 30px 0 0px 0;
+}
+.start-button {
+    background: #01acee;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 15px 56px;
+    display: flex;
+    align-items: center;
+}
+.start-button .fa-twitter {
+    color: #fff;
+    font-size: 30px!important;
+    padding: 0 10px 0 0;
+}
